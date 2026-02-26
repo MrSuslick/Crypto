@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaChain — Web3 нового поколения</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<header>
+  <div class="container nav">
+    <h2 class="logo">NovaChain</h2>
+    <nav>
+      <a href="#about">О проекте</a>
+      <a href="#token">Токен</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#contact" class="btn">Presale</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content glass">
+    <h1>Build The Future of Web3</h1>
+    <p>Высокая скорость. Низкие комиссии. Полная децентрализация.</p>
+
+    <div class="countdown">
+      <div><span id="days">00</span><small>дней</small></div>
+      <div><span id="hours">00</span><small>часов</small></div>
+      <div><span id="minutes">00</span><small>минут</small></div>
+      <div><span id="seconds">00</span><small>секунд</small></div>
+    </div>
+
+    <a href="#contact" class="btn big">Участвовать в Presale</a>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>О проекте</h2>
+  <p>NovaChain — блокчейн нового поколения для DeFi, NFT и DAO решений.</p>
+</section>
+
+<section id="token" class="section dark">
+  <h2>Динамика токена</h2>
+  <canvas id="tokenChart"></canvas>
+</section>
+
+<section id="roadmap" class="section">
+  <h2>Roadmap</h2>
+  <div class="grid">
+    <div class="card">Q1 — Запуск Testnet</div>
+    <div class="card">Q2 — Presale</div>
+    <div class="card">Q3 — Листинг CEX/DEX</div>
+    <div class="card">Q4 — DAO Governance</div>
+  </div>
+</section>
+
+<section id="contact" class="section dark">
+  <h2>Получить доступ к Presale</h2>
+  <form>
+    <input type="email" placeholder="Ваш Email" required>
+    <button class="btn">Получить доступ</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 NovaChain
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
